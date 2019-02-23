@@ -1,0 +1,16 @@
+/* Universal reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+img {max-width:100%}
+/* ALWAYS DO THIS TO MAKE LIFE EASIER */
+html {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;}
+/* add this to every gridlex site */
+[class*=grid] {margin: 0;}
+body {max-width: 900px;
+      margin:auto;}
