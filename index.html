@@ -1,75 +1,40 @@
-<! <!DOCTYPE html>
-<html>
-<!--this is the head of the website where any link styling goes  -->
+---
+layout: default
+---
 
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <link href="style.css" rel="stylesheet">
-</head>
-
-<!-- This is the body of the index page -->
-
-<body>
-  <header>
-    <section class="grid-spaceBetween">
-      <div class="col-4">
-        <h1> Brylee Williamson </h1>
-        <nav class="sm-links center">
-        <a target="_blank" href="https://instagram.com/brylee_williamson">
-          <i class="fab fa-instagram"></i></a>
-        <a target="_blank" href="https://www.facebook.com/bryleew/">
-          <i class="fab fa-facebook"></i></a>
-        <a target="_blank" href="https://www.pinterest.com/brylee_williamson/">
-          <i class="fab fa-pinterest"></i></a>
-        <a target="_blank" href="https://twitter.com/brywilliamson_">
-          <i class="fab fa-twitter"></i></a>
-        <a target="_blank" href="https://www.twitch.tv/brylee_williamson">
-          <i class="fab fa-twitch"></i></a>
-        </nav>
-      </div>
-        <nav class="col-5 nav-bar-titles center">
-          <a href="/index"> Home </a>
-          <a href="/aboutme"> About </a>
-          <a href="/model"> Model </a>
-          <a href="/actress"> Actress </a>
-          <a href="/content creator"> Content Creator </a>
-        </nav>
-    </section>
-  </header>
-
-  <section class="grid">
+<section class="grid padding-around">
     <!-- to put an image as the entire background use div use the name of the photo in css -->
+    {% for post in site.posts limit: 4 %}
     <div class="col-3">
-    <div class="blog-loop-background padding-around"> </div>
-    <div class="blog-loop-title-text">
-      <h2> Title </h2>
-      <h4> Category </h4>
-      <h4> Date </h4>
-    </div>
-  </div>
+      <a href="{{post.url}}">
+        <div class="blog-loop-background" style="background-image:url('{{post.featured-image}}')"></div>
+        <div class="blog-loop-title-text">
+          <h2> {{post.title}} </h2>
+          <h4> {{post.category}} </h4>
+          <h4> {{ page.date | date: "%B %-d %Y"}} </h4>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
   </section>
 
   <h3 class="padding-around"> Model | Actress | Content Creator | Web Developer </h3>
 
-  <section class="padding-around"> Masonry of Model Photos no idea how I will do this </section>
+  <section class="grid padding-around">
+    <div class="col-3 index-model-photo"> </div>
+    <div class="col-3 index-model-photo"> </div>
+    <div class="col-3 index-model-photo"> </div>
+    <div class="col-3 index-model-photo"> </div>
+</section>
 
-  <section>
-    <h3 class="padding-around"> Stay in Touch </h3>
+  <section class="padding-around">
+    <h3> Stay in Touch </h3>
       <!-- I want to link my newsletter to my already existing mailchimp account -->
-    <form class="padding-around">
-      <input class="news-letter" type="text" name="first-name" placeholder="first name">
-      <input class="news-letter" type="text" name="last-name" placeholder="last name">
-      <input class="news-letter" type="email" name="email" placeholder="email">
-      <input class=" button news-letter" type="submit" value="Join The List">
+    <form class="newsletter">
+      <input class="news-letter center" type="text" name="first-name" placeholder="first name">
+      <input class="news-letter center" type="text" name="last-name" placeholder="last name">
+      <input class="news-letter center" type="email" name="email" placeholder="email">
+      <input class="button news-letter center" type="submit" value="Join The List">
     </form>
   </section>
-
-  <footer class="padding-around">
-    <!-- SnapWidget -->
-    <iframe src="https://snapwidget.com/embed/661149" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:960px; height:160px"></iframe>
-  </footer>
-</body>
-<!-- header and footer will be a layout -->
