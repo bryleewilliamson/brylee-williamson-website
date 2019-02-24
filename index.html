@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<section class="grid padding-around">
+<section class="grid blog-blocks">
     <!-- to put an image as the entire background use div use the name of the photo in css -->
     {% for post in site.posts limit: 4 %}
     <div class="col-3">
@@ -12,23 +12,23 @@ layout: default
         <div class="blog-loop-title-text">
           <h2> {{post.title}} </h2>
           <h4> {{post.category}} </h4>
-          <h4> {{ page.date | date: "%B %-d %Y"}} </h4>
+          <h4> {{ post.date | date: "%B %-d %Y"}} </h4>
         </div>
       </div>
     </a>
   {% endfor %}
   </section>
 
-  <h3 class="padding-around"> Model | Actress | Content Creator | Web Developer </h3>
-
-  <section class="grid padding-around">
+  <section class="grid">
+      <h3 class="col-12 padding-5-10"> Model | Actress | Content Creator | Web Developer
+      </h3>
     <div class="col-3 index-model-photo"> </div>
     <div class="col-3 index-model-photo"> </div>
     <div class="col-3 index-model-photo"> </div>
     <div class="col-3 index-model-photo"> </div>
 </section>
 
-  <section class="padding-around">
+  <section class="padding-5-10">
     <h3> Stay in Touch </h3>
       <!-- I want to link my newsletter to my already existing mailchimp account -->
     <form class="newsletter">
