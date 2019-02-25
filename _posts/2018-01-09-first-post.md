@@ -2,7 +2,7 @@
 layout: post-layout
 title: My first post
 category: travel
-featured-image: /images/cape-hedo.jpg
+featured-image: /images/waterfall.jpg
 ---
 
 

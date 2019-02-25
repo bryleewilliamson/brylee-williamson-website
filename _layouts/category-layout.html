@@ -3,12 +3,19 @@ layout: default
 ---
 
 <section class="grid">
+
+  {% for post in paginator.posts %}
   <div class="col-4">
-    <div class="background-image"> </div>
-    <h2> Post Title </h2>
-    <h4> Category </h4>
-    <h4> Date </h4>
-    <p> excert of post <p>
+    <a href="{{post.url}}">
+      <div class="blog-loop-background" style="background-image:url('{{post.featured-image}}')"></div>
+      <div class="blog-loop-title-text">
+        <h2> {{post.title}} </h2>
+        <h4> {{ post.date | date: "%B %-d %Y"}} </h4>
+      </div>
+      </a>
+      </div>
+    {% endfor %}
+
 </section>
 
 <!--jekyllfy the hell outaa these blog posts to show the categories -->

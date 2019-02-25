@@ -5,6 +5,10 @@ models:
   - featured-image: /images/front_images/headshot-2.jpg
   - featured-image: /images/front_images/headshot-3.jpg
   - featured-image: /images/front_images/headshot-4.jpg
+  - featured-image: /images/front_images/headshot-2.jpg
+  - featured-image: /images/front_images/headshot-3.jpg
+  - featured-image: /images/front_images/headshot-4.jpg
+title: Brylee Williamson
 ---
 
 <section class="grid blog-blocks">
@@ -18,8 +22,8 @@ models:
           <h4> {{post.category}} </h4>
           <h4> {{ post.date | date: "%B %-d %Y"}} </h4>
         </div>
+        </a>
       </div>
-    </a>
   {% endfor %}
   </section>
 
@@ -27,7 +31,7 @@ models:
       <h3 class="col-12 titles"> Model | Actress | Content Creator | Web Developer
       </h3>
       </section>
-      <section class="grid">
+      <section class="grid-center">
     {% for image in page.models %}
     <div class="col-3">
         <div class="index-model-photo" style="background-image:url('{{image.featured-image}}')"></div>
