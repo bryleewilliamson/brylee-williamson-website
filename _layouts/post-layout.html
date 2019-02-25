@@ -1,30 +1,41 @@
 ---
 layout: default
 ---
- <section class="grid">
-<div class="col-9">
-  <div class="blog-loop-background" style="background-image:url('{{page.featured-image}}')"> </div>
-  <div class="blog-loop-title-text">
-    <h2> {{page.title}} </h2>
-    <h4> {{page.category}} </h4>
-    <h4> {{ page.date | date: "%B %-d %Y"}} </h4>
+<!--you need to style this shit and then go back and check because you fucked up the headings good job  -->
+<section class="grid">
+  <div class="col-9">
+    <div class="blog-loop-background" style="background-image:url('{{page.featured-image}}')"> </div>
+    <div class="blog-loop-title-text">
+      <h2> {{page.title}} </h2>
+      <h4> {{page.category}} </h4>
+      <h4> {{ page.date | date: "%B %-d %Y"}} </h4>
+    </div>
+    {{content}}
   </div>
-  {{content}}
-</div>
 
-<!--could i make this an include for multiple pages  -->
-<div class="col-3">
-  <h2> Recent Posts </h2>
-  {% for post in site.posts %}
-  {% endfor %}
-  <h2> Categories </h2>
-  <h2> Work Together </h2>
-  <form action="https://formspree.io/business.bryleewilliamson@gmail.com" method="POST" class="contactform">
-    <input class="contact" type="text" name="first-name" placeholder="first name">
-    <input class="contact" type="email" name="email" placeholder="email">
-    <input class="contact" type="text" name="subject" placeholder="subject">
-    <textarea class="contact" name="message" id="message" rows="10" placeholder="Can't wait to hear from you"></textarea>
-    <input type="submit" value="Submit" class="submit">
-  </form>
+  <!--could i make this an include for multiple pages  -->
+  <div class="col-3">
+    <h2> Recent Posts </h2>
+    {% for post in site.posts limit: 3 %}
+    <a href="{{post.url}}">
+      <div class="sidebar-blog-loop-background" style="background-image:url('{{post.featured-image}}')">
+        <h3> {{post.title}} </h3>
+      </div>
+    </a>
+
+    {% endfor %}
+    <h2> Categories </h2>
+    {% for category in site.categories %}
+  <a href="/{{category[0]}}"><h3>{{ category[0] }}</h3> </a>
+
+{% endfor %}
+    <h2> Work Together </h2>
+    <form action="https://formspree.io/business.bryleewilliamson@gmail.com" method="POST" class="contactform">
+      <input class="contact" type="text" name="first-name" placeholder="first name">
+      <input class="contact" type="email" name="email" placeholder="email">
+      <input class="contact" type="text" name="subject" placeholder="subject">
+      <textarea class="contact" name="message" id="message" rows="10" placeholder="Can't wait to hear from you"></textarea>
+      <input type="submit" value="Submit" class="submit">
+    </form>
   </div>
 </section>

@@ -1,7 +1,11 @@
 ---
 layout: default
+models:
+  - featured-image: /images/front_images/headshot-1.jpg
+  - featured-image: /images/front_images/headshot-2.jpg
+  - featured-image: /images/front_images/headshot-3.jpg
+  - featured-image: /images/front_images/headshot-4.jpg
 ---
-
 
 <section class="grid blog-blocks">
     <!-- to put an image as the entire background use div use the name of the photo in css -->
@@ -20,16 +24,19 @@ layout: default
   </section>
 
   <section class="grid">
-      <h3 class="col-12 padding-5-10"> Model | Actress | Content Creator | Web Developer
+      <h3 class="col-12 titles"> Model | Actress | Content Creator | Web Developer
       </h3>
-    <div class="col-3 index-model-photo"> </div>
-    <div class="col-3 index-model-photo"> </div>
-    <div class="col-3 index-model-photo"> </div>
-    <div class="col-3 index-model-photo"> </div>
+      </section>
+      <section class="grid">
+    {% for image in page.models %}
+    <div class="col-3">
+        <div class="index-model-photo" style="background-image:url('{{image.featured-image}}')"></div>
+        </div>
+    {% endfor %}
 </section>
 
-  <section class="padding-5-10">
-    <h3> Stay in Touch </h3>
+  <section class="index-newsletter">
+    <h3 class="newsletter-h3"> Stay in Touch </h3>
       <!-- I want to link my newsletter to my already existing mailchimp account -->
     <form class="newsletter">
       <input class="news-letter center" type="text" name="first-name" placeholder="first name">

@@ -26,10 +26,11 @@ a {
 }
 
 /* CSS Style for Index Page */
-h1, h2 {
-  font-size: 1.5rem;
+h1{
+  font-size: 2.34rem;
   text-align: center;
   padding: 5%;
+  font-weight:300;
 }
 
 .nav-bar-titles a {
@@ -39,20 +40,17 @@ h1, h2 {
   color: black;
 }
 
-h4 {
-  font-size: 0.8rem;
-  text-align: center;
-}
-
-h3 {
-  font-size: 1.5rem;
-  text-align: center;
-}
 
 .news-letter, .sm-links i {
   font-size: 1.3rem;
-  padding: 0.8%;
+  padding: 0.8% 1.35rem;
   color: black;
+}
+.titles, h3 {
+  font-size: 2rem;
+  text-align:center;
+  font-weight: 300;
+  padding: 10% 0% 10% 0% ;
 }
 
 .center {
@@ -76,11 +74,12 @@ h3 {
   border: none;
   padding-top: 1%;
 }
-
+.newsletter h3 {
+  padding-bottom: 1%
+}
 .index-model-photo {
-  background-image: url("https://images.unsplash.com/photo-1548133656-113d30a505a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   height: 22vw;
   border: 4px solid white;
 }
@@ -97,6 +96,9 @@ h3 {
   width: 55%;
   margin-left: 20%;
   color: #031;
+  text-align:center;
+  padding: 3%;
+  font-weight: 300;
 }
 /*  this is to make the bottom overlap the top */
 
@@ -108,6 +110,8 @@ h3 {
 header {
   padding-bottom: 5%;
 }
-.padding-5-10 {
-  padding: 5% 10%;
+footer{
+padding-top: 10% }
+.newsletter-h3 {
+  padding-bottom: 1%
 }
