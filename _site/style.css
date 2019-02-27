@@ -89,12 +89,16 @@ h2 {
   background-position: center;
   background-size:cover;
   height:22vw;
+}
+
+.blog-banner {
+  background-position: center;
+  background-size:cover;
+  height:22vw;
   width: 60vw;
 display: block;
 margin: auto;
 }
-
-
 
 .blog-loop-title-text {
   margin-top: -1.78rem;
