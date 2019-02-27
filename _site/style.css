@@ -104,11 +104,7 @@ h2 {
 }
 /*  this is to make the bottom overlap the top */
 
- .blog-photo-1 {
-   background-image: url("https://images.unsplash.com/photo-1547142425-65468309af7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=637&q=80"); }
-.blog-photo-2 {
-  background-image: url("https://images.unsplash.com/photo-1546856710-3c942c01e23f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-}
+
 header {
   padding-bottom: 5%;
 }
@@ -155,4 +151,12 @@ color: white;
 }
 .margin-top-10 {
   margin-top:10%;
+}
+.about-me-img {
+  background-image: url("/images/about-me.jpg");
+  background-position: center;
+  background-size:cover;
+  height:22vw;
+  width: 20vw;
+display: inline-block;
 }
