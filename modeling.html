@@ -1,16 +1,43 @@
 ---
 layout: default
 title: Modeling
+modeling_images:
+  - image: -01
+  - image: -02
+    wide: true
+  - image: -03
+  - image: -04
+    wide: true
+  - image: -05
+  - image: -06
+  - image: -07
+  - image: -08
+  - image: -09
+  - image: -10
+  - image: -11
+  - image: -12
+    wide: true
+  - image: -13
+  - image: -14
+  - image: -15
+  - image: -16
+  - image: -17
+  - image: -18
+  - image: -19
+    wide: true
+  - image: -20
 ---
 
-<section class="grid">
-<section class="col-9">
-  <div class="portfolio-masonry" id="portfolio-grid">
-  
+<section>
 
+  <div class="portfolio-masonry" id="portfolio-grid">
+  {% for images in page.modeling_images %}
+  <div class="masonry-item {% if images.wide %} masonry-item-w2x  {% endif %} {% if images.tall %} masonry-item-h2x {% endif %}" style="background-image: url('/images/modeling_images/400px/model-photo{{images.image}}.jpg')"></div>
+  {% endfor %}
+  </div>
   </section>
 
-<section class="col-3">
+<section>
   <div> <h2 class="margin-5"> Press </h2> </div>
   <div class="press">
 <a target="_blank" href="https://www.msn.com/g00/en-ca/video/viral/fashion-show-picks-top-10-instagram-models-who-could-be-the-next-kendall-jenner/vi-BBJnKjf?i10c.ua=1&i10c.encReferrer=&i10c.dv=17"> MSN </a>
