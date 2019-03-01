@@ -40,6 +40,7 @@ h2 {
   padding: 2.5%;
   text-decoration: none;
   color: black;
+  display:inline-block;
 }
 
 
@@ -61,7 +62,7 @@ h2 {
 .newsletter input {
   display: block;
   margin: 1.9% auto;
-  width: 30vw;
+  width: 15rem;
   min-height: 1vh;
   border: 0 solid black;
   border-bottom: 1px solid black;
@@ -69,7 +70,7 @@ h2 {
 }
 
 .newsletter .button {
-  width: 15vw;
+  width: 10rem;
   font-family: 'Raleway', sans-serif;
   background-color:  black;
   color: white;
@@ -191,3 +192,27 @@ margin-top: 3vw;
 .margin-5 {
   margin:5%
 }
+
+
+@media all and (max-width: 768px) {
+  .blog-loop-title-text {
+    margin-top: 0;
+    width: 100%;
+    margin-left:0;
+  }
+  .blog-loop-background {
+    height:50vw;
+  }
+  .index-model-photo {
+    height:60vw;
+  }
+  .col-3_md-6:nth-child(n+5) .index-model-photo {
+    display:none;
+  }
+}
+@media all and (max-width: 1024px){
+  .col-3_md-6:nth-child(n+5) .index-model-photo {
+    display:none;}
+    .index-model-photo {
+      height:60vw;}
+    }

@@ -3,7 +3,7 @@ layout: default
 ---
 <!--you need to style this shit and then go back and check because you fucked up the headings good job  -->
 <section class="grid">
-  <div class="col-9">
+  <div class="col-9_sm-12">
     <div class="blog-banner" style="background-image:url('{{page.featured-image}}')"> </div>
     <div class="blog-loop-title-text">
       <h2> {{page.title}} </h2>
@@ -14,7 +14,7 @@ layout: default
   </div>
 
   <!--could i make this an include for multiple pages  -->
-  <div class="col-3 sidebar">
+  <div class="col-3_sm-12 sidebar">
     <h2> Recent Posts </h2>
     {% for post in site.posts limit: 3 %}
     <a href="{{post.url}}">

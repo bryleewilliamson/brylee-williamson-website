@@ -14,7 +14,7 @@ title: Brylee Williamson
 <section class="grid blog-blocks">
     <!-- to put an image as the entire background use div use the name of the photo in css -->
     {% for post in site.posts limit: 4 %}
-    <div class="col-3">
+    <div class="col-3_md-6_sm-12">
       <a href="{{post.url}}">
         <div class="blog-loop-background" style="background-image:url('{{post.featured-image}}')"></div>
         <div class="blog-loop-title-text">
@@ -33,7 +33,7 @@ title: Brylee Williamson
       </section>
       <section class="grid-center">
     {% for image in page.models %}
-    <div class="col-3">
+    <div class="col-3_md-6">
         <div class="index-model-photo" style="background-image:url('{{image.featured-image}}')"></div>
         </div>
     {% endfor %}
