@@ -4,10 +4,8 @@ title: Modeling
 modeling_images:
   - image: -01
   - image: -02
-    wide: true
   - image: -03
   - image: -04
-    wide: true
   - image: -05
   - image: -06
   - image: -07
@@ -16,28 +14,27 @@ modeling_images:
   - image: -10
   - image: -11
   - image: -12
-    wide: true
   - image: -13
   - image: -14
   - image: -15
   - image: -16
   - image: -17
   - image: -18
-  - image: -19
-    wide: true
-  - image: -20
 ---
 
-<section>
-
-  <div class="portfolio-masonry" id="portfolio-grid">
+<section class="grid">
+<div class="col-9_md-12">
+  <div class="grid-spaceAround">
   {% for images in page.modeling_images %}
-  <div class="masonry-item {% if images.wide %} masonry-item-w2x  {% endif %} {% if images.tall %} masonry-item-h2x {% endif %}" style="background-image: url('/images/modeling_images/400px/model-photo{{images.image}}.jpg')"></div>
+<a href="/images/modeling_images/1000px/model-photo{{images.image}}.jpg" data-lightbox="image-1" data-title="Brylee Williamson"><div class="masonry-item" style="background-image: url('/images/modeling_images/400px/model-photo{{images.image}}.jpg')"></div></a>
   {% endfor %}
   </div>
-  </section>
+  </div>
 
-<section>
+<!-- if you want to change images later change the data title in the front matter {{images.title}} -->
+
+<section class="col-3_md-12 grid-top">
+  <div class=col-12_md-6_xs-12">
   <div> <h2 class="margin-5"> Press </h2> </div>
   <div class="press">
 <a target="_blank" href="https://www.msn.com/g00/en-ca/video/viral/fashion-show-picks-top-10-instagram-models-who-could-be-the-next-kendall-jenner/vi-BBJnKjf?i10c.ua=1&i10c.encReferrer=&i10c.dv=17"> MSN </a>
@@ -50,12 +47,15 @@ modeling_images:
 <a target="_blank" href="https://www.thesun.co.uk/fabulous/5593919/from-ex-hockey-player-to-a-personal-shopper-these-are-the-ten-future-supermodels-chosen-from-instagram-by-fashion-scouts/"> Sun UK </a>
 <a target="_blank" href="https://www.unilad.co.uk/fashion/the-next-big-things-in-modelling-have-been-found/"> Unilad </a>
   </div>
+  </div>
+  <div class="col-12_md-6_xs-12">
   <div> <h2 class="margin-5"> Contact for Rates </h2> </div>
   <form action="https://formspree.io/business.bryleewilliamson@gmail.com" method="POST" class="contactform">
     <input type="text" name="first-name" placeholder="first name">
     <input type="email" name="email" placeholder="email">
     <input type="text" name="subject" placeholder="subject">
     <textarea name="message" id="message" rows="10" placeholder="Can't wait to hear from you"></textarea>
-    <input type="submit" value="Submit" class="submit">
+    <input type="submit" value="Submit" class="submit"> </form>
+    </div>
   </section>
 </section>

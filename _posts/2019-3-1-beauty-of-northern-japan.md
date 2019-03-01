@@ -2,7 +2,7 @@
 layout: post-layout
 title: The Beauty of Northern Japan
 category: Travel
-featured-image: /images/blog_posts/cape-hedo-1.jpg
+featured-img: /images/blog_posts/cape-hedo-1.jpg
 ---
 
 

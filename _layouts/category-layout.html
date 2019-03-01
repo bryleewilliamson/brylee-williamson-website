@@ -5,9 +5,9 @@ layout: default
 <section class="grid">
 
   {% for post in paginator.posts %}
-  <div class="col-4">
+  <div class="col-4_md-6_sm-12">
     <a href="{{post.url}}">
-      <div class="blog-loop-background" style="background-image:url('{{post.featured-image}}')"></div>
+      <div class="blog-loop-background" style="background-image:url('{{post.featured-img}}')"></div>
       <div class="blog-loop-title-text">
         <h2> {{post.title}} </h2>
         <h4> {{ post.date | date: "%B %-d %Y"}} </h4>

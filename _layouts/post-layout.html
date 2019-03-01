@@ -3,8 +3,8 @@ layout: default
 ---
 <!--you need to style this shit and then go back and check because you fucked up the headings good job  -->
 <section class="grid">
-  <div class="col-9_sm-12">
-    <div class="blog-banner" style="background-image:url('{{page.featured-image}}')"> </div>
+  <div class="col-9_sm-12 blog-post-junk">
+    <div class="blog-banner" style="background-image:url('{{page.featured-img}}')"> </div>
     <div class="blog-loop-title-text">
       <h2> {{page.title}} </h2>
       <h4 > {{page.category}} </h4>
@@ -18,7 +18,7 @@ layout: default
     <h2> Recent Posts </h2>
     {% for post in site.posts limit: 3 %}
     <a href="{{post.url}}">
-      <div class="sidebar-blog-loop-background" style="background-image:url('{{post.featured-image}}')">
+      <div class="sidebar-blog-loop-background" style="background-image:url('{{post.featured-img}}')">
         <div class="overlay">
         <h3> {{post.title}} </h3>
         </div>

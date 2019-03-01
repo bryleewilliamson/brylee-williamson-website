@@ -2,7 +2,7 @@
 layout: post-layout
 title: Guide to Okinawa Sunflower Fields
 category: Lifestyle
-featured-image: /images/blog_posts/sunflower-fields-1.jpg
+featured-img: /images/blog_posts/sunflower-fields-1.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
