@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: Cherry Blossoms in Okinawa
-category: Travel
+category: Partnerships
 featured-img-path: /images/blog_posts/cherry-blossoms-1.jpg
 ---
 

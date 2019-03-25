@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: The lost Art of Maya Bay
-category: Content Creation
+category: Website Development 
 featured-img-path: /images/blog_posts/maya-bay-1.jpg
 ---
 

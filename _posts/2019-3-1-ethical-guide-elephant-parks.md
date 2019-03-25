@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: Ethical Guide to Elephant Parks
-category: Travel
+category: Geek
 featured-img-path: /images/blog_posts/chai-lai-1.jpg
 ---
 

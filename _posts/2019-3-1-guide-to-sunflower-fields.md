@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: Guide to Okinawa Sunflower Fields
-category: Lifestyle
+category: Social Media 
 featured-img-path: /images/blog_posts/sunflower-fields-1.jpg
 ---
 
