@@ -2,7 +2,6 @@
 layout: post-layout
 title: Tree House Village-Okinawa
 category: Travel
-category: Geek
 featured-img-path: /images/blog_posts/tree-house-village-1.jpg
 ---
 
