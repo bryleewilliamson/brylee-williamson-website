@@ -4,11 +4,11 @@ layout: default
 <!--you need to style this shit and then go back and check because you fucked up the headings good job  -->
 <section class="grid">
   <div class="col-9_sm-12 blog-post-junk">
-    <div class="blog-banner editable" style="background-image:url('{{page.featured-img-path}}')"> </div>
+    <div class="blog-banner" style="background-image:url('{{page.featured-img-path}}')"> </div>
     <div class="blog-loop-title-text">
-      <h2 class="editable"> {{page.title}} </h2>
-      <h4 class="editable" > {{page.category}} </h4>
-      <h4 class="editable"> {{ page.date | date: "%B %-d %Y"}} </h4>
+      <h2> {{page.title}} </h2>
+      <h4> {{page.category}} </h4>
+      <h4> {{ page.date | date: "%B %-d %Y"}} </h4>
     </div>
     {{content}}
   </div>
