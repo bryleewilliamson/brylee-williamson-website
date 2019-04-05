@@ -1,7 +1,7 @@
 ---
 layout: post-layout
 title: Alternative Beach-Bali
-categories: Travel
+category: Travel
 featured-img-path: /images/blog_posts/alternative-beach/alternative-beach-1.jpg
 ---
 
