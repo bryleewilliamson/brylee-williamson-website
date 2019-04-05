@@ -1,10 +1,18 @@
 ---
 layout: post-layout
-title: Tree House Village-Okinawa
+title: Alternative Beach-Bali
 category: Travel
-featured-img-path: /images/blog_posts/alternative-beach/alternative-beach-1
+featured-img-path: /images/blog_posts/tree-house-village-1.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+Have you been to Bali yet? If not I highly suggest you go. The cafes and restaurants are amazing and you can’t go wrong. I am always on the hunt for a new cafe, restaurant, or chill out place when I travel. Luckily in Bali, I found Alternative Beach!&nbsp;
 
-ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We first came here with the group from Institute of Code (more on that later) and I was blown away by all the suitable “instagram worthy” shots available. I swear, they designed this place in mind specifically for all you fabulous Instagrammers.&nbsp;
+
+First and foremost, the place is a hostel and a hotel all in one! Perfect for you budget travellers who love the hostel life, and crafted for the romantic lovers who want a private pool front villa. Creator thought of everything to appeal to the mass audiences.&nbsp;
+
+Who doesn’t love a pool bar? I have no idea! Can’t think of a single person who’s had to complain and get out of the water to get their drink. Just swim on up order a cocktail, and sip it on one of the many floats they have available in the pool. Or chill out on the beachside walk in.&nbsp;
+
+Want to work on your Bali Bod? (I think that should be new hashtag on instagram) They have you covered. Wanderlust Fitness Studio. Yes That is the name of the gym on the premises. Sadly I was enjoying the outdoors to much to go inside, but I saw it through a window. Looked Fabulous. Time to get fit.&nbsp;
+
+Fact is short is sweet, when in Canggu head over to Alternative Beach for an evening of fun, drinks, laughter, and sweet content for your instagram that will last you weeks!&nbsp;<br>&nbsp;
