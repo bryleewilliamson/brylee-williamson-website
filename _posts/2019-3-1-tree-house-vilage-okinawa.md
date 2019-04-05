@@ -1,8 +1,8 @@
 ---
 layout: post-layout
-title: Tree House Village-Okinawa
+title: Alternative Beach-Bali
 category: Travel
-featured-img-path: /images/blog_posts/alternative-beach/alternative-beach-1
+featured-img-path: /images/blog_posts/alternative-beach/alternative-beach-1.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
