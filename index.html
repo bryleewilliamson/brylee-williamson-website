@@ -13,7 +13,7 @@ title: Brylee Williamson
 
 <section class="grid blog-blocks">
     <!-- to put an image as the entire background use div use the name of the photo in css -->
-    {% for post in site.posts limit: 4 %}
+    {% for post in site.posts limit: 8 %}
     <div class="col-3_md-6_sm-12">
       <a href="{{post.url}}">
         <div class="blog-loop-background" style="background-image:url('{{post.featured-img-path}}')"></div>
@@ -27,21 +27,6 @@ title: Brylee Williamson
   {% endfor %}
   </section>
 
-  <section class="grid blog-blocks">
-      <!-- to put an image as the entire background use div use the name of the photo in css -->
-      {% for post in site.posts limit: 4 %}
-      <div class="col-3_md-6_sm-12">
-        <a href="{{post.url}}">
-          <div class="blog-loop-background" style="background-image:url('{{post.featured-img-path}}')"></div>
-          <div class="blog-loop-title-text">
-            <h2> {{post.title}} </h2>
-            <h4> {{post.category}} </h4>
-            <h4> {{ post.date | date: "%B %-d %Y"}} </h4>
-          </div>
-          </a>
-        </div>
-    {% endfor %}
-    </section>
 
   <section class="grid">
       <h3 class="col-12 titles editable"> Model | Actress | Content Creator | Web Developer
