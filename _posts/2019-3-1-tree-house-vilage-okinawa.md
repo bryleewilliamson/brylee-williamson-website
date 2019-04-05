@@ -1,7 +1,8 @@
 ---
 layout: post-layout
 title: Tree House Village-Okinawa
-category: Travel, Bali
+category: Travel
+category: Bali
 featured-img-path: /images/blog_posts/tree-house-village-1.jpg
 ---
 
