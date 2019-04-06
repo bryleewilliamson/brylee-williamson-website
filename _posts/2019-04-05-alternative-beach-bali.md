@@ -19,4 +19,6 @@ Who doesn’t love a pool bar? I have no idea! Can’t think of a single person 
 
 Want to work on your Bali Bod? (I think that should be new hashtag on instagram) They have you covered. Wanderlust Fitness Studio. Yes That is the name of the gym on the premises. Sadly I was enjoying the outdoors to much to go inside, but I saw it through a window. Looked Fabulous. Time to get fit.&nbsp;
 
-Fact is short is sweet, when in Canggu head over to Alternative Beach for an evening of fun, drinks, laughter, and sweet content for your instagram that will last you weeks!&nbsp;<br>![](/uploads/alternative-beach-5.jpg)
+Fact is short is sweet, when in Canggu head over to Alternative Beach for an evening of fun, drinks, laughter, and sweet content for your instagram that will last you weeks!&nbsp;
+
+<br>![](/uploads/alternative-beach-5.jpg)
