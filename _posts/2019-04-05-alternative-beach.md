@@ -2,7 +2,7 @@
 layout: post-layout
 title: Alternative Beach-Bali
 category: Travel
-featued-img_path: /images/blog_posts/alternative-beach/alternative-beach-1.jpg
+featured-img_path: /images/blog_posts/alternative-beach/alternative-beach-1.jpg
 ---
 
 Have you been to Bali yet? If not I highly suggest you go. The cafes and restaurants are amazing and you can’t go wrong. I am always on the hunt for a new cafe, restaurant, or chill out place when I travel. Luckily in Bali, I found Alternative Beach!&nbsp;
@@ -19,6 +19,4 @@ Who doesn’t love a pool bar? I have no idea! Can’t think of a single person 
 
 Want to work on your Bali Bod? (I think that should be new hashtag on instagram) They have you covered. Wanderlust Fitness Studio. Yes That is the name of the gym on the premises. Sadly I was enjoying the outdoors to much to go inside, but I saw it through a window. Looked Fabulous. Time to get fit.&nbsp;
 
-Fact is short is sweet, when in Canggu head over to Alternative Beach for an evening of fun, drinks, laughter, and sweet content for your instagram that will last you weeks!&nbsp;
-
-<br>![](/uploads/alternative-beach-5.jpg)
+Fact is short is sweet, when in Canggu head over to Alternative Beach for an evening of fun, drinks, laughter, and sweet content for your instagram that will last you weeks!&nbsp;<br>![](/uploads/alternative-beach-5.jpg)
