@@ -10,7 +10,9 @@ layout: default
       <h4> {{page.category}} </h4>
       <h4> {{ page.date | date: "%B %-d %Y"}} </h4>
     </div>
-    {{content}}
+    <div class="post-content">
+      {{content}}
+      </div>
   </div>
 
   <!--could i make this an include for multiple pages  -->

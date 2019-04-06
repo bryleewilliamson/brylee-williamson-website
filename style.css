@@ -199,6 +199,14 @@ margin-top: 3vw;
   padding:0% 3%;
 }
 
+.post-content img {
+  display: block;
+  margin: auto;
+}
+
+.post-content p {
+  padding: 2%;
+}
 
 @media all and (max-width: 768px) {
   .blog-loop-title-text {
