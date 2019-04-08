@@ -24,6 +24,15 @@ a {
 [class*=grid] {
   margin: 0;
 }
+[class*=col-3] {
+  padding: 0;
+}
+[class*=col-4] {
+  padding: 0;
+}
+[class=*col-5] {
+  padding: 0;
+}
 
 /* CSS Style for Index Page */
 h1{
@@ -40,7 +49,7 @@ h1{
   width: 25vw;
 display:block;
 margin:auto;
-margin-top: 20%;
+margin-top: 3vh;
 }
 h2 {
   text-align: center;
@@ -51,24 +60,25 @@ h2 {
   text-decoration:underline;
   color: black;
   display:inline-block;
-  margin-top: 30%;
   font-weight:bold;
-}
+  text-align:center;
+  padding: 5% 2%;
 
 }
-.contact-nav-bar {
-  margin-right: 2%;
+.contact-nav-bar p {
+  text-align:center;
+  padding: 2%;
 }
+
 .icon-photo {
   background-image: url("/images/icon-photo.jpg");
   background-position: center;
   background-size:cover;
   height:30%;
   width: 100%;
-display:block;
-margin:auto;
-margin-top: 3vw;
-
+  display:block;
+  margin:auto;
+  margin-top: 3vw;
 }
 
 .news-letter, .sm-links i {
@@ -272,6 +282,6 @@ border: 3px solid black;
 /*this makes links inherit the color of their parent  */
 /* ALWAYS DO THIS TO MAKE LIFE EASIER */
 /* add this to every gridlex site */
-[class*=grid] {
+[class*=col] {
   margin: 0;
 }
