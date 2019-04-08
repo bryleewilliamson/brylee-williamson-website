@@ -48,11 +48,11 @@ h2 {
 }
 .nav-bar-titles a {
   font-size: 1rem;
-  padding: 2.5%;
-  text-decoration: none;
+  text-decoration:underline;
   color: black;
   display:inline-block;
   margin-top: 15%;
+  font-weight:bold;
 }
 .contact-nav-bar {
   margin-right: 2%
