@@ -40,7 +40,7 @@ h1{
   width: 25vw;
 display:block;
 margin:auto;
-margin-top: 3vw;
+margin-top: 20%;
 }
 h2 {
   text-align: center;
@@ -51,7 +51,7 @@ h2 {
   text-decoration:underline;
   color: black;
   display:inline-block;
-  margin-top: 15%;
+  margin-top: 30%;
   font-weight:bold;
 }
 
@@ -63,7 +63,7 @@ h2 {
   background-image: url("/images/icon-photo.jpg");
   background-position: center;
   background-size:cover;
-  height:40%;
+  height:30%;
   width: 100%;
 display:block;
 margin:auto;
