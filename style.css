@@ -55,6 +55,17 @@ h2 {
   margin-top: 15%;
 }
 
+.icon-photo {
+  background-image: url("/images/icon-photo.jpg");
+  background-position: center;
+  background-size:cover;
+  height:5vw;
+  width: 25vw;
+display:block;
+margin:auto;
+margin-top: 3vw;
+
+}
 
 .news-letter, .sm-links i {
   font-size: 1.3rem;
