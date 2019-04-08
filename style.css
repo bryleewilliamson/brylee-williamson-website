@@ -54,7 +54,9 @@ h2 {
   display:inline-block;
   margin-top: 15%;
 }
-
+.contact-nav-bar {
+  margin-right: 2%
+}
 .icon-photo {
   background-image: url("/images/icon-photo.jpg");
   background-position: center;
