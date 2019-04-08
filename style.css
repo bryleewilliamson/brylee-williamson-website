@@ -267,3 +267,11 @@ background-position: center;
 background-size: cover;
 border: 3px solid black;
 }
+
+}
+/*this makes links inherit the color of their parent  */
+/* ALWAYS DO THIS TO MAKE LIFE EASIER */
+/* add this to every gridlex site */
+[class*=grid] {
+  margin: 0;
+}
