@@ -15,69 +15,76 @@ img {
 }
 
 a {
-  color:inherit;
+  color: inherit;
   text-decoration: none;
 }
+
 /*this makes links inherit the color of their parent  */
 /* ALWAYS DO THIS TO MAKE LIFE EASIER */
 /* add this to every gridlex site */
 [class*=grid] {
   margin: 0;
 }
+
 [class*=col-3] {
   padding: 0;
 }
+
 [class*=col-4] {
   padding: 0;
 }
+
 [class=*col-5] {
   padding: 0;
 }
 
 /* CSS Style for Index Page */
-h1{
+h1 {
   font-size: 2.34rem;
   text-align: center;
   padding: 5%;
-  font-weight:300;
+  font-weight: 300;
 }
+
 .logo {
   background-image: url("/images/logo.jpg");
   background-position: center;
-  background-size:cover;
-  height:5vw;
+  background-size: cover;
+  height: 5vw;
   width: 25vw;
-display:block;
-margin:auto;
-margin-top: 3vh;
+  display: block;
+  margin: auto;
+  margin-top: 3vh;
 }
+
 h2 {
   text-align: center;
   font-weight: 300;
 }
+
 .nav-bar-titles a {
   font-size: 1rem;
-  text-decoration:underline;
+  text-decoration: underline;
   color: black;
-  display:inline-block;
-  font-weight:bold;
-  text-align:center;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
   padding: 5% 2%;
-
 }
+
 .contact-nav-bar p {
-  text-align:center;
+  text-align: center;
   padding: 2%;
 }
 
 .icon-photo {
   background-image: url("/images/icon-photo.jpg");
   background-position: center;
-  background-size:cover;
-  height:30%;
+  background-size: cover;
+  height: 30%;
   width: 100%;
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
   margin-top: 3vw;
 }
 
@@ -86,9 +93,10 @@ h2 {
   padding: 0.8% .35rem;
   color: black;
 }
+
 .titles, h3 {
   font-size: 2rem;
-  text-align:center;
+  text-align: center;
   font-weight: 300;
   padding: 2%;
 }
@@ -96,6 +104,7 @@ h2 {
 .center {
   text-align: center;
 }
+
 .newsletter input {
   display: block;
   margin: 1.9% auto;
@@ -109,33 +118,41 @@ h2 {
 .newsletter .button {
   width: 10rem;
   font-family: 'Raleway', sans-serif;
-  background-color:  black;
+  background-color: black;
   color: white;
   border: none;
   padding-top: 1%;
 }
+
 .newsletter h3 {
   padding-bottom: 1%
 }
+
 .index-model-photo {
   background-position: center;
   background-size: cover;
   height: 30vw;
   border: 4px solid white;
 }
+
 .blog-loop-background {
   background-position: center;
-  background-size:cover;
-  height:22vw;
+  background-size: cover;
+  height: 22vw;
+}
+
+.blog-image {
+  padding: 1%;
 }
 
 .blog-banner {
   background-position: center;
-  background-size:cover;
-  height:25vw;
+  background-size: cover;
+  height: 25vw;
   width: 60vw;
-display: block;
-margin: auto;
+  display: block;
+  margin: auto;
+  padding: 3%;
 }
 
 .blog-loop-title-text {
@@ -143,96 +160,111 @@ margin: auto;
   background-color: white;
   width: 55%;
   margin-left: 20%;
-  font-weight:300;
-  text-align:center;
+  font-weight: 300;
+  text-align: center;
   padding: 3%;
-
 }
+
 /*  this is to make the bottom overlap the top */
-
-
 header {
   padding-bottom: 5%;
 }
-footer{
-padding-top: 10% }
+
+footer {
+  padding-top: 10%
+}
+
 .newsletter-h3 {
   padding-bottom: 1%
 }
+
 .sidebar-blog-loop-background {
   margin: 8%;
   padding: 3%;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
 }
+
 .overlay {
-  background-color: rgba(227,227,227,0.5);
+  background-color: rgba(227, 227, 227, 0.5);
 }
+
 .sidebar h4 {
-  text-align:center;
-  padding:2%;
+  text-align: center;
+  padding: 2%;
 }
+
 h4 {
   padding: 1%;
-  font-weight:300;
+  font-weight: 300;
 }
+
 .padding-bottom-10 {
   padding-bottom: 10%;
 }
+
 .contactform input, textarea {
   border: 1px solid black;
-padding: 3%;
-margin-bottom: 7%;
-width: 100%;
-  }
+  padding: 3%;
+  margin-bottom: 7%;
+  width: 100%;
+}
+
 input.submit {
   width: 50%;
   margin: auto;
   display: block;
-padding: 3%;
-border-radius: 0.5rem;
-font-size: 1rem;
-background-color: #68B0AB;
-color: white;
+  padding: 3%;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #68B0AB;
+  color: white;
 }
+
 .margin-top-10 {
-  margin-top:10%;
+  margin-top: 10%;
 }
+
 .about-me-img {
   background-image: url("/images/about-me.jpg");
   background-position: center;
-  background-size:cover;
-  height:30vw;
+  background-size: cover;
+  height: 30vw;
   width: 35vw;
-display:block;
-margin:auto;
-margin-top: 3vw;
+  display: block;
+  margin: auto;
+  margin-top: 3vw;
 }
+
 .about-me {
-  display:block;
-  margin:auto;
-  text-align:center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
+
 .aboutme {
   font-size: 2.5rem;
 }
+
 .about-me p {
   padding: 3%;
   width: 40vw;
-  display:block;
-  margin:auto;
+  display: block;
+  margin: auto;
 }
+
 .press a {
-  text-align:center;
-  display:block;
+  text-align: center;
+  display: block;
   padding: 3%;
 }
+
 .margin-5 {
-  margin:5%
+  margin: 5%
 }
 
 .blog-post-junk {
-  padding:0% 3%;
+  padding: 0% 3%;
 }
 
 .post-content img {
@@ -248,37 +280,46 @@ margin-top: 3vw;
   .blog-loop-title-text {
     margin-top: 0;
     width: 100%;
-    margin-left:0;
+    margin-left: 0;
   }
+
   .blog-loop-background {
-    height:50vw;
+    height: 50vw;
   }
+
   .index-model-photo {
-    height:60vw;
+    height: 60vw;
   }
+
   .col-3_md-6:nth-child(n+5) .index-model-photo {
-    display:none;
+    display: none;
   }
-}
-@media all and (max-width: 1024px){
-  .col-3_md-6:nth-child(n+5) .index-model-photo {
-    display:none;}
-    .index-model-photo {
-      height:60vw;}
-    }
-.margin-auto {
-  margin:auto;
-}
-.masonry-item {
-  height: 20rem;
-width: 20rem;
-display: inline-block;
-background-position: center;
-background-size: cover;
-border: 3px solid black;
 }
 
+@media all and (max-width: 1024px) {
+  .col-3_md-6:nth-child(n+5) .index-model-photo {
+    display: none;
+  }
+
+  .index-model-photo {
+    height: 60vw;
+  }
 }
+
+.margin-auto {
+  margin: auto;
+}
+
+.masonry-item {
+  height: 20rem;
+  width: 20rem;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+}
+}
+
 /*this makes links inherit the color of their parent  */
 /* ALWAYS DO THIS TO MAKE LIFE EASIER */
 /* add this to every gridlex site */
@@ -287,9 +328,8 @@ border: 3px solid black;
 }
 
 /* ptich page css  */
-
 .pitchphoto {
-background-image: url("/images/logo.jpg");
-background-position: center;
-background-size:cover;
+  background-image: url("/images/logo.jpg");
+  background-position: center;
+  background-size: cover;
 }

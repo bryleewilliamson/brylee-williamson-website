@@ -13,7 +13,7 @@ title: Brylee Williamson
 <section class="grid blog-blocks">
     <!-- to put an image as the entire background use div use the name of the photo in css -->
     {% for post in site.posts limit: 8 %}
-    <div class="col-3_md-6_sm-12">
+    <div class="col-3_lg-12_md-6_sm-12 blog-image">
       <a href="{{post.url}}">
         <div class="blog-loop-background" style="background-image:url('{{post.featured-img_path}}')"></div>
         <div class="blog-loop-title-text">
