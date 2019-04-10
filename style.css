@@ -328,8 +328,8 @@ input.submit {
 }
 
 /* ptich page css  */
-.pitchphoto {
-  background-image: url("/images/logo.jpg");
+.middle-pitch{
+  background-image: url("/images/about-me.jpg");
   background-position: center;
   background-size: cover;
 }
