@@ -2,7 +2,7 @@
 layout: post-layout
 title: Alternative Beach-Bali
 category: Travel
-featured-img_path: /images/icon-photo.jpg
+featured-img_path: /images/blog_posts/alternative-beach/alternative-beach-1.jpg
 ---
 
 Have you been to Bali yet? If not I highly suggest you go. The cafes and restaurants are amazing and you can’t go wrong. I am always on the hunt for a new cafe, restaurant, or chill out place when I travel. Luckily in Bali, I found Alternative Beach! 
