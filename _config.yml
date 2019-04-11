@@ -22,3 +22,7 @@ autopages:
       - 'category-layout.html'
     title: "Brylee's :cat"
     permalink: '/:cat'
+
+_editable_regions:
+  image:
+    url_src: true
