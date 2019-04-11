@@ -99,10 +99,12 @@ h4 {
   color: black;
   display: inline-block;
   font-weight: bold;
-  text-align: center;
   padding: 5% 2%;
+  text-align: center;
 }
-
+.nav-bar-titles {
+  text-align: center;
+}
 .contact-nav-bar p {
   text-align: center;
   padding: 2%;
@@ -181,7 +183,7 @@ min-height: 50vh;
   background-position: center;
   background-size: cover;
   height: 25vw;
-  width: 60vw;
+  width: 100%;
   display: block;
   margin: auto;
   padding: 3%;
@@ -207,7 +209,7 @@ header {
   padding: 3%;
   background-size: cover;
   background-position: center;
-  height: 10vh;
+  height: 20vh;
 }
 .sidebar-blog-loop-background h4{
   font-weight:bold;

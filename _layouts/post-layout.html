@@ -3,7 +3,7 @@ layout: default
 ---
 <!--you need to style this shit and then go back and check because you fucked up the headings good job  -->
 <section class="grid">
-  <div class="col-9_sm-12 blog-post-junk">
+  <div class="col-9_lg-12_m-12_sm-12 blog-post-junk">
     <div class="blog-banner" style="background-image:url('{{page.featured-img_path}}')"> </div>
     <div class="blog-loop-title-text">
       <h3> {{page.title}} </h3>
@@ -16,7 +16,7 @@ layout: default
   </div>
 
   <!--could i make this an include for multiple pages  -->
-  <div class="col-3_sm-12 sidebar">
+  <div class="col-3_lg-12_m-12_sm-12 sidebar">
     <h2> Recent Posts </h2>
     {% for post in site.posts limit: 3 %}
     <a href="{{post.url}}">
@@ -35,7 +35,7 @@ layout: default
   </div>
 
 {% endfor %}
-<div class="margin-top">
+<div class="margin-top ">
     <h2 > Work Together </h2>
     <form action="https://formspree.io/business.bryleewilliamson@gmail.com" method="POST" class="contactform">
       <input type="text" name="first-name" placeholder="first name">
@@ -44,5 +44,6 @@ layout: default
       <textarea name="message" id="message" rows="10" placeholder="Can't wait to hear from you"></textarea>
       <input type="submit" value="Submit" class="submit">
     </form>
+  </div>
   </div>
 </section>
