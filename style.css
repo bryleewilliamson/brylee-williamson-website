@@ -356,7 +356,6 @@ input.submit {
   min-height: 70vh;
 }
 .pitch-photo {
-  background-image: url("/images/about-me.jpg");
   background-position: center;
   background-size: cover;
   min-height:70vh;
