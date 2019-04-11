@@ -346,8 +346,6 @@ input.submit {
   background-position: center;
   background-size: cover;
 }
-.pitch-photo{
-  background-image: url("/images/alternative-beach.jpg");
-  background-position: center;
-  background-size: cover;
+.pitch-photo {
+  background-image: url("/uploades/alternative-beach-1.jpg")
 }
