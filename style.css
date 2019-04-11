@@ -64,6 +64,11 @@ h4 {
  .post-content p {
    font-size: 1.3rem;
  }
+
+.box-next-to-icon-photo h3
+{
+  padding: 5%;
+}
 /* Photo Styling */
 
 
@@ -114,6 +119,15 @@ h4 {
   margin-top: 3vw;
 }
 
+.icon-photo-pitch {
+  background-image: url("/images/icon-photo.jpg");
+  background-position: center;
+  background-size: cover;
+min-height: 50vh;
+  width: 100%;
+  display: block;
+  margin: auto;
+  }
 .news-letter, .sm-links i {
   font-size: 1.3rem;
   padding: 0.8% .35rem;
@@ -187,11 +201,6 @@ h4 {
 header {
   padding-bottom: 5%;
 }
-
-footer {
-  padding-top: 10%
-}
-
 
 .sidebar-blog-loop-background {
   margin: 8%;
@@ -344,7 +353,23 @@ input.submit {
   background-image: url("/images/about-me.jpg");
   background-position: center;
   background-size: cover;
+  min-height: 70vh;
 }
 .pitch-photo {
-  background-image: url("/uploades/alternative-beach-1.jpg");
+  background-image: url("/images/about-me.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height:70vh;
+}
+.pitch-photo {
+  justify-content: center;
+
+}
+.gray-bg {
+  background-color: #bababa;
+  min-height:50vh;
+}
+.gray-bg-2 {
+  background-color: #bababa;
+  min-height:20vh;
 }
