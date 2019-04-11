@@ -8,7 +8,7 @@ models:
 title: Brylee Williamson
 ---
 <div>
-  <h3> Recent Projects </h3>
+  <h2> Recent Projects </h2>
   </div>
 <section class="grid blog-blocks">
     <!-- to put an image as the entire background use div use the name of the photo in css -->
@@ -17,7 +17,7 @@ title: Brylee Williamson
       <a href="{{post.url}}">
         <div class="blog-loop-background" style="background-image:url('{{post.featured-img_path}}')"></div>
         <div class="blog-loop-title-text">
-          <h2> {{post.title}} </h2>
+          <h3> {{post.title}} </h3>
           <h4> {{post.category}} </h4>
           <h4> {{ post.date | date: "%B %-d %Y"}} </h4>
         </div>
@@ -28,8 +28,8 @@ title: Brylee Williamson
 
 
   <section class="grid">
-      <h3 class="col-12 titles editable"> Model | Actress | Content Creator | Web Developer
-      </h3>
+      <h2 class="col-12 editable"> Model | Actress | Content Creator | Web Developer
+      </h2>
       </section>
       <section class="grid-center">
     {% for image in page.models %}
@@ -44,7 +44,7 @@ title: Brylee Williamson
 <div id="mc_embed_signup">
 <form action="https://bryleewilliamson.us20.list-manage.com/subscribe/post?u=7b7378dc330e76c92013c99f0&amp;id=eb7c4f000a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h3 class="newsletter-h3"> Stay in Touch </h3>
+	<h2 class="newsletter-h3"> Stay in Touch </h2>
 <div class="mc-field-group">
 	<input  type="text" value="" name="FNAME" class="news-letter center" placeholder="First Name" id="mce-FNAME">
 </div>
