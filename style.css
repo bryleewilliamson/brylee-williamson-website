@@ -156,9 +156,10 @@ h5 {
   background-repeat:no-repeat;
 }
  .stats, .inbox {
-   background-color: rgba(227, 227, 227, 0.5);}
+   background-color: rgba(227, 227, 227, 0.5);
+ height: 50vh;}
+
 .inbox h1 {
   color: black;
   background-color: inherit;
-  height: 50vh;
 }
