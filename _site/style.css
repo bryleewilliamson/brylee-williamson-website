@@ -132,3 +132,11 @@ h5 {
   height: 80vh;
   width: 100%;
 }
+ .pitch h1, .pitch h2 {
+   color:white;
+   font-weight: bold;
+ }
+.hey {
+  color: black;
+
+}
