@@ -51,7 +51,7 @@ h1 {
   font-size: 5rem;
   color: white;
   font-weight: 300;
-    background-color: rgba(227, 227, 227, 0.5);
+  background-color: rgba(227, 227, 227, 0.5);
 }
 
 h2 {
@@ -63,6 +63,7 @@ h2 {
 h5 {
   font-size: 1.2rem;
 }
+
 /* logo header banner */
 .logo {
   background-image: url("/uploads/logo.jpg");
@@ -73,7 +74,7 @@ h5 {
 
 .logo h2 {
   color: white;
-    background-color: rgba(227, 227, 227, 0.5);
+  background-color: rgba(227, 227, 227, 0.5);
 }
 
 .sm-links {
@@ -86,10 +87,12 @@ h5 {
   margin-left: 1.5%;
   color: black;
 }
+
 .navbar a {
   font-size: 1.5rem;
   margin-left: 3%;
 }
+
 /*index blog posts */
 .blog-featured {
   background-image: url('{{post.featured-img_path}}');
@@ -124,19 +127,32 @@ h5 {
   border: none;
 }
 
-
 /* pitch */
 .pitch {
   background-position: center;
   background-size: cover;
   height: 80vh;
   width: 100%;
+  color: white;
+  font-weight: 300;
 }
- .pitch h1, .pitch h2 {
-   color:white;
-   font-weight: bold;
- }
+
+.pitch h1 {
+  background-color: inherit;
+}
+
+.pitch h2 {
+  color: white;
+}
+
 .hey {
   color: black;
-
+  height: 30vh;
+  background-color: white;
+}
+.vision {
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  background-repeat:no-repeat;
 }
