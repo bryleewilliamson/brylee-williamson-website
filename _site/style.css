@@ -160,4 +160,5 @@ h5 {
 .inbox h1 {
   color: black;
   background-color: inherit;
+  height: 50vh;
 }
