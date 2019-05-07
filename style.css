@@ -137,8 +137,6 @@ h5 {
   font-weight: 300;
 }
 
-
-
 .pitch h2 {
   color: white;
   background-color: rgba(227, 227, 227, 0.5);
@@ -149,15 +147,22 @@ h5 {
   height: 30vh;
   background-color: white;
 }
+
 .vision {
   background-position: center;
   background-size: cover;
   height: 80vh;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 }
- .stats, .inbox {
-   background-color: rgba(227, 227, 227, 0.5);
- height: 50vh;}
+
+.ourpitch {
+  height: 70vh;
+}
+
+.stats, .inbox {
+  background-color: rgba(227, 227, 227, 0.5);
+  height: 50vh;
+}
 
 .inbox h1 {
   color: black;
