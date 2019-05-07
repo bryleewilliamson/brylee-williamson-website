@@ -1,0 +1,105 @@
+---
+layout: default
+title: Lull x Brylee Williamson
+gallery:
+  - image_path: /uploads/lull.jpg
+vision:
+  - image_path: /uploads/Cherry-blossom-1.jpg
+final:
+  - image_path: /uploads/maya-bay-5.jpg
+---
+
+<div>
+{% for gallery in page.gallery %}
+<div>
+  <div class="pitch editable" style="background-image:url('{{gallery.image_path}}')" ;>
+    <div class="center pitch">
+      <h1>Brand X Collaboration</h1>
+      <h2>Collaboration Proposal</h2>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
+
+<div class="padding">
+  <h1 class="hey editable center">
+    Oh hey! Lets make some magic!
+  </h1>
+</div>
+
+<section class="grid">
+  <div class="col-8_lg-8_md-12_sm-12">
+    {% for vision in page.vision %}
+    <div class="vision editable" style="background-image:url('{{vision.image_path}}')" ;>
+      
+    </div>
+    {% endfor %}
+  </div>
+  <div class="col-4_lg-4_md-12_sm-12 padding">
+             <div class="grid">
+  <h1 class=" col-12 hey editable center ">
+    We've got a vision
+  </h1>
+    <h2 class=" col-12 hey editable center">
+      This is our vision so here is a bunch of blah blah till then
+    </h2> </div>
+  </div>
+</section>
+
+<div class="grid editable center padding stats">
+  <div class="col-12">
+    <h2>A few little stats.</h2>
+    <hr />
+  </div>
+  <div class="col-3_xs-12">
+    <h3>20.1</h3>
+    <p>Followers on instagram</p>
+  </div>
+  <div class="col-3_xs-12">
+    <h3>1.5k</h3>
+    <p>Monthly Blog Traffic</p>
+  </div>
+  <div class="col-3_xs-12">
+    <h3>4%</h3>
+    <p>Engagement Rate</p>
+  </div>
+  <div class="col-3_xs-12">
+    <h3 class="e">20K</h3>
+    <p>Total Reach</p>
+  </div>
+</div>
+
+
+<section class="grid padding">
+  <div class=" col-4_lg-4_md-12_sm-12">
+    <h2 class=" hey editable center">
+      one last cool attempt to keep them
+    </h2>
+  </div>
+
+  <div class="col-8_lg-8_md-12_sm-12">
+    {% for final in page.final %}
+    <div class="vision editable" style="background-image:url('{{final.image_path}}')" ;>
+      
+    </div>
+    {% endfor %}
+  </div>
+
+</section>
+
+<section class="ourpitch grid padding">
+  <div class="col-6">
+    <h2 class=" hey editable center">
+      Our Pitch
+    </h2>
+  </div>
+  <div class="col-6 editable">
+    <p>bla blah blah blah</p>
+  </div>
+  </section>
+
+  <section class="padding inbox center">
+    <h1 class="editable">
+      Slide into my Inbox
+    </h1></section>
