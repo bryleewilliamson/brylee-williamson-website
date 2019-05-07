@@ -1,75 +1,56 @@
-<! <!DOCTYPE html>
+<!Doctype html>
 <html>
-<!--this is the head of the website where any link styling goes  -->
 
 <head>
+  <!--this is the head of the website where any link styling goes  -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135468541-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135468541-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-135468541-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
+    gtag('config', 'UA-135468541-1');
+  </script>
+  <!-- gridlex -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <!-- font -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/lightbox/css/lightbox.css" rel="stylesheet">
-
-
   <title>{{page.title}}</title>
-
+  <!-- css style sheet link -->
   <link href="/style.css" rel="stylesheet">
+
 </head>
-
-<!-- This is the body of the index page -->
-
-<body>
-  <header>
-    <section class="grid-noGutter">
-      <div class="col-3_lg-12_md-12_sm-12-middle">
-        <h1> Brylee Williamson </h1>
-        <nav class="sm-links center">
-        <a target="_blank" href="https://instagram.com/brylee_williamson">
-          <i class="fab fa-instagram"></i></a>
-        <a target="_blank" href="https://www.facebook.com/bryleew/">
-          <i class="fab fa-facebook"></i></a>
-        <a target="_blank" href="https://www.pinterest.com/brylee_williamson/">
-          <i class="fab fa-pinterest"></i></a>
-        <a target="_blank" href="https://twitter.com/brywilliamson_">
-          <i class="fab fa-twitter"></i></a>
-        <a target="_blank" href="https://www.twitch.tv/brylee_williamson">
-          <i class="fab fa-twitch"></i></a>
-        </nav>
-      </div>
-      <div class="col-6_lg-12_md-12_sm-12 icon-photo"> </div>
-      <div class=" col-3_lg-12_md-12_sm-12-middle contact-nav-bar">
-        <nav class="nav-bar-titles">
-          <a href="/index"> Home </a>
-          <a href="/about"> About </a>
-          <a href="/modeling"> Portfolio </a>
-          <a target="_blank" href="https://brylee.letscollab.io"> Work With Me  </a>
-          <h4> contact:business.bryleewilliamson@gmail.com </h4>
-        </nav>
-      </div>
-    </section>
-  </header>
-
+<header class="grid">
+  <div class="col-12 logo">
+    <span> <h1 class="center"> Brylee Williamson </h1></span>
+    <span> <h2 class="center"> Model | Storyteller | Photographer | Web Developer </h2>
+     </span>
+     <span> <h2 class=" sm-links center"> Where Else Can Ya Find Me? </h2>
+       {% include socialmedia.html %} </span>
+  </div>
+  <div class="col-12 center"> {% include nav-bar.html %} </div>
+</header>
 {{content}}
 
 <footer>
-  <!-- SnapWidget -->
-<iframe src="https://snapwidget.com/embed/680384" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border: none; overflow: hidden; width: 100%; height: 508px;" id="iFrameResizer0"></iframe>
+  <section class="editable padding">
+<div class="mailchimp"> {% include mailchimp.html %} </div>
+</section>
+  <div>
+    <!-- SnapWidget -->
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <iframe src="https://snapwidget.com/embed/687799" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+    <div style="font:10px/14px 'Roboto','Helvetica Neue',Arial,Helvetica,sans-serif;font-weight:400;width:100%;text-align:right"><a href="https://snapwidget.com" style="color:#777;text-decoration:none;">SnapWidget · Instagram Widget</a></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js">
+  </script>
+  <script src="/javascript/main.js"> </script>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js">
-</script>
-<script src="/javascript/main.js"> </script>
-<script src="/lightbox/js/lightbox.js"></script>
-<script src="https://snapwidget.com/js/snapwidget.js"></script>
-
-</body>
-<!-- header and footer will be a layout -->
+</html>

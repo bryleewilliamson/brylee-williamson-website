@@ -1,4 +1,4 @@
-/* Universal reset */
+/* Universal reset always add this to each site  */
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +9,7 @@
 body {
   font-family: 'Raleway', sans-serif;
 }
-/* ALWAYS DO THIS TO MAKE LIFE EASIER */
+
 img {
   max-width: 100%
 }
@@ -37,340 +37,100 @@ a {
   padding: 0;
 }
 
-/* Heading Styling */
-h1 {
-  text-align:center;
-  font-weight:300;
-  font-size: 2.5rem;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: 300;
-}
-
-h3 {
-  text-align:center;
-  font-weight: 300;
-  font-size: 1.7rem;
-}
-
-h4 {
-  text-align:center;
-  font-weight: 300;
-  font-size: 1rem;
-}
- .post-content p {
-   font-size: 1.3rem;
- }
-
-.box-next-to-icon-photo h3
-{
-  padding: 5%;
-}
-/* Photo Styling */
-
-
-
-
-
-
-
-
-
-
-/* CSS Style for Index Page */
-
-.logo {
-  background-image: url("/images/logo.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 5vw;
-  width: 25vw;
-  display: block;
-  margin: auto;
-  margin-top: 3vh;
-}
-
-.nav-bar-titles a {
-  font-size: 1rem;
-  text-decoration: underline;
-  color: black;
-  display: inline-block;
-  font-weight: bold;
-  padding: 5% 2%;
-  text-align: center;
-}
-.nav-bar-titles {
-  text-align: center;
-}
-.contact-nav-bar p {
-  text-align: center;
+.padding {
   padding: 2%;
 }
 
-.icon-photo {
-  background-image: url("/images/icon-photo.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 30%;
-  width: 100%;
-  display: block;
-  margin: auto;
-  margin-top: 3vw;
-}
-
-.icon-photo-pitch {
-  background-image: url("/images/icon-photo.jpg");
-  background-position: center;
-  background-size: cover;
-min-height: 50vh;
-  width: 100%;
-  display: block;
-  margin: auto;
-  }
-.news-letter, .sm-links i {
-  font-size: 1.3rem;
-  padding: 0.8% .35rem;
-  color: black;
-}
-
-
-
-
+/*text edits   */
 .center {
   text-align: center;
+  font-weight: 300;
 }
 
-.newsletter input {
+h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 300;
+    background-color: rgba(227, 227, 227, 0.5);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+/* logo header banner */
+.logo {
+  background-image: url("/uploads/logo.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 110vh;
+}
+
+.logo h2 {
+  color: white;
+    background-color: rgba(227, 227, 227, 0.5);
+}
+
+.sm-links {
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(227, 227, 227, 0.5);
+}
+
+.sm-links a {
+  margin-left: 1.5%;
+  color: black;
+}
+.navbar a {
+  font-size: 1.5rem;
+  margin-left: 3%;
+}
+/*index blog posts */
+.blog-featured {
+  background-image: url('{{post.featured-img_path}}');
+  background-position: center;
+  background-size: cover;
+  height: 25vw;
+  width: 100%;
+}
+
+.blog-titles {
+  margin-top: -1.78rem;
+  background-color: white;
+  width: 70%;
+  margin-left: 15%;
+}
+
+/* newsletter sign up   */
+.news-letter {
   display: block;
   margin: 1.9% auto;
   width: 15rem;
-  min-height: 1vh;
+  min-height: 10vh;
   border: 0 solid black;
   border-bottom: 1px solid black;
-  padding: 1%;
 }
 
-.newsletter .button {
+.button {
   width: 10rem;
   font-family: 'Raleway', sans-serif;
   background-color: black;
   color: white;
   border: none;
-  padding-top: 1%;
 }
 
-.index-model-photo {
-  background-position: center;
-  background-size: cover;
-  height: 30vw;
-  border: 4px solid white;
-}
-
-.blog-loop-background {
-  background-position: center;
-  background-size: cover;
-  height: 22vw;
-}
-
-.blog-image {
-  padding: 1%;
-}
-
-.blog-banner {
-  background-position: center;
-  background-size: cover;
-  height: 25vw;
-  width: 100%;
-  display: block;
-  margin: auto;
-  padding: 3%;
-}
-
-/*  this is to make the bottom overlap the top */
-.blog-loop-title-text {
-  margin-top: -1.78rem;
-  background-color: white;
-  width: 55%;
-  margin-left: 20%;
-  font-weight: 300;
-  text-align: center;
-  padding: 3%;
-}
-
-header {
-  padding-bottom: 5%;
-}
-
-.sidebar-blog-loop-background {
-  margin: 8%;
-  padding: 3%;
-  background-size: cover;
-  background-position: center;
-  height: 20vh;
-}
-.sidebar-blog-loop-background h4{
-  font-weight:bold;
-}
-.overlay {
-  background-color: rgba(227, 227, 227, 0.5);
-  height:5vh;
-}
-
-.padding-bottom-10 {
-  padding-bottom: 10%;
-}
-
-.contactform input, textarea {
-  border: 1px solid black;
-  padding: 3%;
-  margin-bottom: 7%;
-  width: 100%;
-}
-
-input.submit {
-  width: 50%;
-  margin: auto;
-  display: block;
-  padding: 3%;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  background-color: #68B0AB;
-  color: white;
-}
-
-.margin-top-10 {
-  margin-top: 10%;
-}
-
-.about-me-img {
-  background-image: url("/images/about-me.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 30vw;
-  width: 35vw;
-  display: block;
-  margin: auto;
-  margin-top: 3vw;
-}
-
-.about-me {
-  display: block;
-  margin: auto;
-  text-align: center;
-}
-
-.aboutme {
-  font-size: 2.5rem;
-}
-
-.about-me p {
-  padding: 3%;
-  width: 40vw;
-  display: block;
-  margin: auto;
-}
-
-.press a {
-  text-align: center;
-  display: block;
-  padding: 3%;
-}
-
-.margin-5 {
-  margin: 5%
-}
-
-.blog-post-junk {
-  padding: 0% 3%;
-}
-
-.post-content img {
-  display: block;
-  margin: auto;
-}
-
-.post-content p {
-  padding: 2%;
-}
-
-@media all and (max-width: 768px) {
-  .blog-loop-title-text {
-    margin-top: 0;
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .blog-loop-background {
-    height: 50vw;
-  }
-
-  .index-model-photo {
-    height: 60vw;
-  }
-
-  .col-3_md-6:nth-child(n+5) .index-model-photo {
-    display: none;
-  }
-}
-
-@media all and (max-width: 1024px) {
-  .col-3_md-6:nth-child(n+5) .index-model-photo {
-    display: none;
-  }
-
-  .index-model-photo {
-    height: 60vw;
-  }
-}
-
-.margin-auto {
-  margin: auto;
-}
-
-.masonry-item {
-  height: 20rem;
-  width: 20rem;
+/* image gallery */
+.gallery-item {
   display: inline-block;
+  min-height: 60vh;
   background-position: center;
-  background-size: cover;
-  border: 3px solid black;
+  background-size:cover;
+  width:100%;
 }
-}
-
-/*this makes links inherit the color of their parent  */
-/* ALWAYS DO THIS TO MAKE LIFE EASIER */
-/* add this to every gridlex site */
-[class*=col] {
-  margin: 0;
-}
-
-.margin-top {
-  margin-top: 50%;
-}
-/* ptich page css  */
-.middle-pitch{
-  background-image: url("/images/about-me.jpg");
-  background-position: center;
-  background-size: cover;
-  min-height: 70vh;
-}
-.pitch-photo {
-  background-position: center;
-  background-size: cover;
-  min-height:70vh;
-}
-.pitch-photo {
-  justify-content: center;
-
-}
-.gray-bg {
-  background-color: #bababa;
-  min-height:50vh;
-}
-.gray-bg-2 {
-  background-color: #bababa;
-  min-height:20vh;
-}
+/* about me */
+.about-me
