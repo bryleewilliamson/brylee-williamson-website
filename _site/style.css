@@ -156,3 +156,5 @@ h5 {
   height: 80vh;
   background-repeat:no-repeat;
 }
+ .stats {
+   background-color: rgba(227, 227, 227, 0.5);}
