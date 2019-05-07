@@ -137,12 +137,11 @@ h5 {
   font-weight: 300;
 }
 
-.pitch h1 {
-  background-color: inherit;
-}
+
 
 .pitch h2 {
   color: white;
+  background-color: rgba(227, 227, 227, 0.5);
 }
 
 .hey {
