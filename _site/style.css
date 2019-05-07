@@ -124,13 +124,11 @@ h5 {
   border: none;
 }
 
-/* image gallery */
-.gallery-item {
-  display: inline-block;
-  min-height: 60vh;
+
+/* pitch */
+.pitch {
   background-position: center;
-  background-size:cover;
-  width:100%;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
 }
-/* about me */
-.about-me

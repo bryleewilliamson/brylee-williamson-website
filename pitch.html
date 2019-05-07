@@ -1,0 +1,14 @@
+---
+layout: default
+title: Pitch Collaboration
+gallery:
+  - image_path: /uploads/maya-bay-5.jpg
+---
+
+{% for gallery in page.gallery limit:12 %}
+<div>
+  <div class="pitch editable" style="background-image:url('{{gallery.image_path}}')";>     <div class="editable center"> <h1> Brand X Collaboration </h1>
+    <h2> Collaboration Proposal </h2> </div>
+  </div>
+</div>
+{% endfor %}
