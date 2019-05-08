@@ -1,14 +1,18 @@
 ---
 layout: default
+title:
+category:
+featured-img_path:
 ---
 <!--you need to style this shit and then go back and check because you fucked up the headings good job  -->
+<div class="blog-featured" style="background-image:url('{{page.featured-img_path}}')"> </div>
 
+<div class="blog-titles center">
+  <h2> {{page.title}} </h2>
+  <h6> {{page.category}} </h6>
+  <h6> {{page.date | date: "%B %-d %Y"}} </h6>
+</div>
 
-    <div class="blog-featured" style="background-image:url('{{post.featured-img_path}}')"> </div>
-
-      <div class="blog-titles">
-        <h2> {{post.title}} </h2>
-        <h6> {{post.category}} </h6>
-        <h6> {{post.date | date: "%B %-d %Y"}} </h6>
-    </div>
-     {{content}}
+<div>
+{{content}}
+</div>
