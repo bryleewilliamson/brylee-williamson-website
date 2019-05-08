@@ -17,7 +17,7 @@ Trust me\! I’ve tested it.&nbsp;
 
 So there is a method that works with follow/unfollow but it is a bit different. I only suggest it with someone you trust.&nbsp;
 
-![](/uploads/follow-unfollow-4.jpg)![](/uploads/follow-unfollow-4.jpg)
+![](/uploads/follow-unfollow-4.jpg)
 
 My secret is creating a viral account\! Yes, that is it. Create a Viral Account in your niche. Use that to leverage people to follow your own account. That's how I grow at least 20-50 new follower a day.&nbsp;
 
@@ -29,4 +29,4 @@ Mind you some are harder to grow.
 
 There isn't just posting viral content you have to partner with hashtags that will help you grow or no one will see it. It's a tricky process but worth it.&nbsp;
 
-If you are interested in this process hit me up and I can help you. I promise its cheaper than those growth services that charge you to follow/unfollow on your own account. Also, I don't need your password\!&nbsp;<br>Also better than buying likes or followers those are even worse, I’ll share more on those later.&nbsp;<br>![](/uploads/follow-unfollow-3.jpg)![](/uploads/follow-unfollow-3.jpg)
+If you are interested in this process hit me up and I can help you. I promise its cheaper than those growth services that charge you to follow/unfollow on your own account. Also, I don't need your password\!&nbsp;<br>Also better than buying likes or followers those are even worse, I’ll share more on those later.&nbsp;<br>![](/uploads/follow-unfollow-3.jpg)
