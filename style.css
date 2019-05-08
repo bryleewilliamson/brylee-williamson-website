@@ -64,6 +64,9 @@ h5 {
   font-size: 1.2rem;
 }
 
+h3 {
+  font-size: 1.4rem;
+}
 /* logo header banner */
 .logo {
   background-image: url("/uploads/logo.jpg");
@@ -170,8 +173,19 @@ h5 {
 }
 
 /* posts edits */
-p {
+.posts p {
   text-align: center;
-  padding: 2%;
+  padding: 2% 10%;
   font-size: 1.2rem;
+
+}
+.blog-featured-post{
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat
+}
+.posts h1 {
+  color: black;
+  background-color: white;
 }

@@ -5,14 +5,14 @@ category:
 featured-img_path:
 ---
 <!--you need to style this shit and then go back and check because you fucked up the headings good job  -->
-<div class="blog-featured" style="background-image:url('{{page.featured-img_path}}')"> </div>
+<div class="blog-featured-post " style="background-image:url('{{page.featured-img_path}}')"> </div>
 
-<div class="blog-titles center">
-  <h2> {{page.title}} </h2>
+<div class="blog-titles center posts">
+  <h1> {{page.title}} </h1>
   <h6> {{page.category}} </h6>
   <h6> {{page.date | date: "%B %-d %Y"}} </h6>
 </div>
 
-<div>
+<div class="posts">
 {{content}}
 </div>
