@@ -169,11 +169,9 @@ h5 {
   background-color: inherit;
 }
 
-
 /* posts edits */
-
 p {
   text-align: center;
-padding: 2%;
-font-size: 1.2rem;
+  padding: 2%;
+  font-size: 1.2rem;
 }
