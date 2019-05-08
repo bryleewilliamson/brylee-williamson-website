@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post-layout
 title: Stop the Follow-Unfollow
-category: Social Media 
+category: Social Media
 featured-img_path: /uploads/follow-unfollow-1.jpg
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-layout
 title: Chasing Cherry Blossoms- Okinawa
 category: Travel
 featured-img_path: /uploads/Cherry-blossom-1.jpg

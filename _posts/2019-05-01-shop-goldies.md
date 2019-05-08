@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-layout
 title: Shop Goldies
 category: Modeling
 featured-img_path: /uploads/goldies-1.jpg
