@@ -13,13 +13,13 @@ Seriously this made the trip 1000x easier than I think it could have. It was so 
 
 Let’s take a look at where they took us\!
 
-Day 1: North and East Nusa Penida
+#### Day 1: North and East Nusa Penida
 
 Our day started with a pickup from our hotel at 6 am. Yeah super early but we were in Canguu so it was worth it. We had to get to the Sanur Harbor by 8 am and the company completely arranged our boat tickets for us\! The boat ride was a bit choppy that day but so fun\! All 3 of us were tired but we were ready for the day ahead\!
 
-We started at the Rumah Pohon treehouse.
+#### We started at the Rumah Pohon treehouse.
 
-![](/uploads/nusa-penida-29.jpg)
+#### ![](/uploads/nusa-penida-29.jpg)
 
 These Treehouses are incredible\! There is actually a way to stay at them but be warned, Bali is HOT\! They are on the side of the island with sunrise, so if you stay overnight, you will get the sunrise of a lifetime.
 
