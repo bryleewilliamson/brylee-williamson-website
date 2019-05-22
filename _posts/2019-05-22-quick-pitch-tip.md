@@ -11,10 +11,10 @@ I was struggling with my pitches for a bit\! I kept emailing a cold pitch and tr
 
 I tested it yesterday\! I cold pitched 2 hotels and Death Valley, THEY RESPONDED\!
 
-Ready for it...
+Ready for it…
 
-I don't think you are...
+I don't think you are…
 
-![](/uploads/brand-2.JPG)
+![Pitching](/uploads/brand-2.JPG)
 
 That's it. And I got a response from both. Try it out\! Let me know how it goes\!&nbsp;
