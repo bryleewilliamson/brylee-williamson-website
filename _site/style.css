@@ -48,14 +48,14 @@ a {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 10rem;
   color: white;
   font-weight: 300;
-  background-color: rgba(227, 227, 227, 0.5);
+  /* background-color: rgba(227, 227, 227, 0.5); */
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: black;
   font-weight: 300;
 }
@@ -77,23 +77,28 @@ h3 {
 
 .logo h2 {
   color: white;
-  background-color: rgba(227, 227, 227, 0.5);
+  /* background-color: rgba(227, 227, 227, 0.5); */
+  margin-bottom:3%;
 }
 
 .sm-links {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
-  background-color: rgba(227, 227, 227, 0.5);
+  /* background-color: rgba(227, 227, 227, 0.5); */
 }
 
 .sm-links a {
   margin-left: 1.5%;
-  color: black;
+  color: white;
 }
 
 .navbar a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-left: 3%;
+}
+
+.intro {
+  margin-top: 35%
 }
 
 /*index blog posts */
